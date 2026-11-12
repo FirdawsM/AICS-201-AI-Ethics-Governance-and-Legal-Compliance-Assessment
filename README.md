@@ -14,7 +14,7 @@ ICDFA | AICS-201 | Assignment 01. Independent AI Ethics, Governance and Complian
 | `data/` | Synthetic dataset and data dictionary (Task 4) |
 | `analysis/` | Reproducible fairness and explainability code (Task 4) |
 | `evidence/` | Charts, tables and code outputs produced by the analysis |
-| `evidence/screenshots/` | Screenshots of a clean-environment run (venv, install, data generation, fairness analysis). Also shown in Appendix E of the report |
+| `evidence/screenshots/` | Screenshots of a clean-environment run (venv, install, data generation, fairness analysis). Also shown in Appendix D of the report |
 | `report/` | Final assessment report, PDF (Task 5) |
 
 ## Reproducing the analysis
