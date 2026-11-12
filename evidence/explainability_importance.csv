@@ -1,0 +1,6 @@
+,standardised_coefficient,permutation_importance_AUC_drop
+income_stability,0.855,0.14
+txn_regularity,0.464,0.036
+months_history,0.154,0.004
+device_basic,-0.429,0.025
+location_changes_90d,0.065,0.0

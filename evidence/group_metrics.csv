@@ -1,0 +1,19 @@
+variant,group,n,approval_rate,approval_rate_among_creditworthy (TPR),approval_rate_among_defaulters (FPR),repay_rate_among_approved (precision)
+"V0 baseline (all features, historical decisions)",urban,2055,0.662,0.787,0.382,0.822
+"V0 baseline (all features, historical decisions)",rural,1145,0.545,0.664,0.292,0.829
+"V0 baseline (all features, historical decisions)",male,1646,0.621,0.744,0.357,0.817
+"V0 baseline (all features, historical decisions)",female,1554,0.619,0.742,0.34,0.832
+"V0 baseline (all features, historical decisions)",rural women,559,0.528,0.661,0.239,0.858
+"V0 baseline (all features, historical decisions)",urban men,1060,0.654,0.787,0.365,0.824
+V1 proxy features removed (historical decisions),urban,2055,0.648,0.78,0.353,0.832
+V1 proxy features removed (historical decisions),rural,1145,0.569,0.691,0.311,0.825
+V1 proxy features removed (historical decisions),male,1646,0.632,0.758,0.361,0.818
+V1 proxy features removed (historical decisions),female,1554,0.607,0.737,0.313,0.842
+V1 proxy features removed (historical decisions),rural women,559,0.535,0.668,0.244,0.856
+V1 proxy features removed (historical decisions),urban men,1060,0.648,0.784,0.353,0.828
+"V2 outcome labels (all features, repayment outcomes)",urban,2055,0.622,0.754,0.325,0.839
+"V2 outcome labels (all features, repayment outcomes)",rural,1145,0.617,0.742,0.35,0.819
+"V2 outcome labels (all features, repayment outcomes)",male,1646,0.626,0.754,0.353,0.821
+"V2 outcome labels (all features, repayment outcomes)",female,1554,0.613,0.746,0.313,0.844
+"V2 outcome labels (all features, repayment outcomes)",rural women,559,0.594,0.736,0.284,0.849
+"V2 outcome labels (all features, repayment outcomes)",urban men,1060,0.62,0.758,0.32,0.837

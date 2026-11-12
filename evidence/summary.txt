@@ -1,0 +1,25 @@
+Test set n=3200; overall approval rate target=0.62
+AUC against true repayment: V0 baseline=0.763; V1 proxy features removed=0.777; V2 outcome labels=0.779
+
+                                             variant               comparison  impact_ratio (approval)  equal_opportunity_gap (TPR)  FPR_gap  precision_gap
+    V0 baseline (all features, historical decisions)           rural vs urban                    0.823                       -0.123   -0.089          0.006
+    V0 baseline (all features, historical decisions)           female vs male                    0.997                       -0.002   -0.017          0.015
+    V0 baseline (all features, historical decisions) rural women vs urban men                    0.807                       -0.126   -0.127          0.034
+    V1 proxy features removed (historical decisions)           rural vs urban                    0.879                       -0.089   -0.042         -0.007
+    V1 proxy features removed (historical decisions)           female vs male                    0.961                       -0.021   -0.048          0.024
+    V1 proxy features removed (historical decisions) rural women vs urban men                    0.825                       -0.115   -0.109          0.028
+V2 outcome labels (all features, repayment outcomes)           rural vs urban                    0.991                       -0.012    0.025         -0.020
+V2 outcome labels (all features, repayment outcomes)           female vs male                    0.979                       -0.008   -0.040          0.023
+V2 outcome labels (all features, repayment outcomes) rural women vs urban men                    0.958                       -0.021   -0.036          0.012
+
+Baseline bootstrap 95% CI, rural vs urban: impact ratio 0.772 to 0.870; equal opportunity gap -0.164 to -0.085
+
+                      standardised_coefficient  permutation_importance_AUC_drop
+income_stability                         0.855                            0.140
+txn_regularity                           0.464                            0.036
+months_history                           0.154                            0.004
+device_basic                            -0.429                            0.025
+location_changes_90d                     0.065                            0.000
+
+Wrongly declined creditworthy rural customers (baseline): 262
+Share approved if only device_basic is set to 0: 0.477

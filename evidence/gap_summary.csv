@@ -1,0 +1,10 @@
+variant,comparison,impact_ratio (approval),equal_opportunity_gap (TPR),FPR_gap,precision_gap
+"V0 baseline (all features, historical decisions)",rural vs urban,0.823,-0.123,-0.089,0.006
+"V0 baseline (all features, historical decisions)",female vs male,0.997,-0.002,-0.017,0.015
+"V0 baseline (all features, historical decisions)",rural women vs urban men,0.807,-0.126,-0.127,0.034
+V1 proxy features removed (historical decisions),rural vs urban,0.879,-0.089,-0.042,-0.007
+V1 proxy features removed (historical decisions),female vs male,0.961,-0.021,-0.048,0.024
+V1 proxy features removed (historical decisions),rural women vs urban men,0.825,-0.115,-0.109,0.028
+"V2 outcome labels (all features, repayment outcomes)",rural vs urban,0.991,-0.012,0.025,-0.02
+"V2 outcome labels (all features, repayment outcomes)",female vs male,0.979,-0.008,-0.04,0.023
+"V2 outcome labels (all features, repayment outcomes)",rural women vs urban men,0.958,-0.021,-0.036,0.012
